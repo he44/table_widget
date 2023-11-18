@@ -53,3 +53,7 @@ th, td {
   text-align: left;
 }
 
+th {
+  background-color: #8A2BE2; /* Foxglove purple */
+  color: white;
+}
