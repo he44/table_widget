@@ -37,6 +37,10 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 table {
   border-collapse: collapse;
   width: 90%; /* Adjust the width as needed */
@@ -48,12 +52,14 @@ table, th, td {
   border: 1px solid black;
 }
 
-th, td {
+td {
   padding: 8px;
   text-align: left;
 }
 
 th {
+  padding: 8px;
   background-color: #8A2BE2; /* Foxglove purple */
   color: white;
+  text-align: center;
 }
